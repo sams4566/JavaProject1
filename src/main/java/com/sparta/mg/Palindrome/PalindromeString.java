@@ -2,34 +2,24 @@ package com.sparta.mg.Palindrome;
 
 public class PalindromeString {
     public static void main(String[] args) {
-        String words = new String("My ama is Manam");
+        String words = new String("My ama lllllllll is Manam");
         if (longestPalin(words) == "")
             System.out.println("No Palindrome");
         else
             System.out.println(longestPalin(words));
-            System.out.println(longestPalin(words));
-        Boolean outcome = isPalindrome(words);
-        System.out.println(outcome);
-        System.out.println(outcome);
     }
 
     static String longestPalin(String words) {
-        words = words + " ";
         String specificword = "";
         String longestword = "";
-        int length = 0;
         int maxlength = 0;
-        for (int i = 0; i < words.length(); i++) {
-            char letter = words.charAt(i);
-            if (letter != ' ') {
-                specificword = specificword + letter;
-            } else {
-                length = specificword.length();
-                if (isPalindrome(specificword) && length > maxlength) {
-                    longestword = specificword;
-                    maxlength = length;
-                }
-                specificword = "";
+        String[] wordlist = words.split(" ");
+        for (int j = 0; j < wordlist.length; j++) {
+            int length = wordlist[j].length();
+            specificword = wordlist[j];
+            if (isPalindrome(specificword) && length > maxlength) {
+                longestword = specificword;
+                maxlength = length;
             }
         }
         return longestword;
