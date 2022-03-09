@@ -1,7 +1,5 @@
 package com.sparta.mg.enums;
 
-import com.sparta.mg.OOP.Cat;
-
 public enum Days {
     MONDAY("Today is Monday"),
     TUESDAY("Today is Tuesday"),

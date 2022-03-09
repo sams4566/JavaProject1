@@ -1,9 +1,8 @@
-package com.sparta.mg.BubbleSort;
+package com.sparta.mg.bubblesort;
 
 import java.util.Arrays;
 
-public final class BubbleSort {
-
+public class BubbleSort {
     static void bubbleSort(int[] numbers) {
         int len = numbers.length;
         int a = 0;
@@ -20,7 +19,6 @@ public final class BubbleSort {
 
     public static void main(String[] args) {
         int[] numbers = {100,53,43,10,59,60,13,45};
-        System.out.println(Arrays.toString(numbers));
         bubbleSort(numbers);
         System.out.println(Arrays.toString(numbers));
     }

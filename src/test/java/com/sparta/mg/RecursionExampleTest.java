@@ -1,6 +1,6 @@
 package com.sparta.mg;
 
-import com.sparta.mg.Recursion.RecursionExample;
+import com.sparta.mg.recursion.RecursionExample;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

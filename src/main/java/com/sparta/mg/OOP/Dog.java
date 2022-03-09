@@ -1,4 +1,4 @@
-package com.sparta.mg.OOP;
+package com.sparta.mg.oop;
 
 public class Dog extends Animal implements Speaker {
     public Dog(String name, String breed, int age) {

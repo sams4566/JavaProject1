@@ -1,4 +1,4 @@
-package com.sparta.mg.Solid;
+package com.sparta.mg.solid;
 
 //coupling and cohesion
 //Dependency Inversion - depend on abstract classes

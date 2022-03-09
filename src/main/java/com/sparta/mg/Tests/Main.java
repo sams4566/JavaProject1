@@ -1,6 +1,4 @@
-package com.sparta.mg.Tests;
-
-import java.util.Arrays;
+package com.sparta.mg.tests;
 
 public class Main {
     public static void main(String[] args) {

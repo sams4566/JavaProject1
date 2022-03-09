@@ -1,8 +1,8 @@
-package com.sparta.mg.BubbleSortMerge;
+package com.sparta.mg.bubblesort;
 
 import java.util.Arrays;
 
-public class BubbleSortMerge {
+public class BubbleSortMergeArrays2 {
     static void bubbleSort(int[] numbers) {
         int len = numbers.length;
         for (int i = 0; i < len; i++) {
@@ -39,10 +39,8 @@ public class BubbleSortMerge {
     }
 
     public static void main(String[] args) {
-        int[] numbers1 = {100,53,43,10,59,60,13,45};
-        int[] numbers2 = {100,53,43,10,59,60,13,45};
-        System.out.println(Arrays.toString(numbers1));
-        System.out.println(Arrays.toString(numbers2));
+        int[] numbers1 = {100,53,89,10,59,60,13,45};
+        int[] numbers2 = {700,89,98,100,119,192,34,12};
         int[] numbers = concat(numbers1, numbers2);
         bubbleSort(numbers);
         System.out.println(Arrays.toString(numbers));

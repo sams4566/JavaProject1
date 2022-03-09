@@ -1,4 +1,4 @@
-package com.sparta.mg.Solid;
+package com.sparta.mg.solid;
 
 public class O {
     // Wizard class

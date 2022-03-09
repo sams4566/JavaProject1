@@ -1,8 +1,8 @@
-package com.sparta.mg.Palindrome;
+package com.sparta.mg.palindrome;
 
 public class PalindromeString {
     public static void main(String[] args) {
-        String words = new String("My ama lllllllll is Manam");
+        String words = new String("redivider deified radar level hello goodbye");
         if (longestPalin(words) == "")
             System.out.println("No Palindrome");
         else

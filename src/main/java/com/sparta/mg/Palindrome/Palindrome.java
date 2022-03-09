@@ -1,4 +1,4 @@
-package com.sparta.mg.Palindrome;
+package com.sparta.mg.palindrome;
 
 public class Palindrome {
     public static void main(String[] args) {

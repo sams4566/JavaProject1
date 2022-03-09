@@ -1,4 +1,4 @@
-package com.sparta.mg.OOP;
+package com.sparta.mg.oop;
 
 public interface Speaker {
     void speak();
