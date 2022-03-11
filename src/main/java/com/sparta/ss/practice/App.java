@@ -1,6 +1,7 @@
-package com.sparta.ss.grade;
+package com.sparta.ss.practice;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
@@ -23,5 +24,12 @@ public class App {
         System.out.println(moreNumbers[5]);
         System.out.println(Arrays.toString(numbers));
         System.out.println(Arrays.toString(moreNumbers));
+
+        // Test Scanner class
+        Scanner sc = new Scanner(System.in);
+        String scanned = sc.next();
+        String[] list1 = new String[3];
+        list1[0] = scanned;
+        System.out.println(Arrays.toString(list1));
     }
 }

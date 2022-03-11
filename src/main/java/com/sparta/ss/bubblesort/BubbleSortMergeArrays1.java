@@ -16,7 +16,7 @@ public class BubbleSortMergeArrays1 {
     }
 
     private static void swap(int[] numbers, int j) {
-        int a;
+        int a = 0;
         a = numbers[j - 1];
         numbers[j - 1] = numbers[j];
         numbers[j] = a;

@@ -9,7 +9,7 @@ public class StringExamples {
         String s4 = new String("Hello World");
         String s5 = new String("Hello World");
 
-//        System.out.println(s1.equals(s5));
+        System.out.println(s1.equals(s5));
 
         System.out.println(s1.hashCode());
         System.out.println(s2.hashCode());
@@ -26,6 +26,4 @@ public class StringExamples {
         System.out.println(System.identityHashCode(s5));
 
     }
-
-//    public static boolean isPalindrome(string word)
 }

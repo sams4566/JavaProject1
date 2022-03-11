@@ -19,14 +19,6 @@ public class CatTests {
         Cat cat1 = new Cat("Harry", "Persian", 5);
         assertEquals("Harry", cat1.getName());
     }
-
-//    @Test
-//    @DisplayName("Test Cat Speaking")
-//    void testCatSpeaking() {
-//        Cat cat1 = new Cat("Harry", "Persian", 5);
-//        String output = cat1.speak().toString();
-//        Assertions.assertEquals("Purr", cat1.speak().toString());
-//    }
 }
 
 

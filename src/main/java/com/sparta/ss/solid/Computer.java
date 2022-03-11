@@ -12,7 +12,7 @@ public class Computer {
     }
 
     public static void main(String[] args) {
-        //Dependency Injection
+        //Dependency Injection - at the time the classes are created the objects are injected.
 //        Computer computer = new Computer();
     }
 }
