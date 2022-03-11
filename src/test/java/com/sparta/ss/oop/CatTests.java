@@ -19,6 +19,16 @@ public class CatTests {
         Cat cat1 = new Cat("Harry", "Persian", 5);
         assertEquals("Harry", cat1.getName());
     }
+
+    @Test
+    @DisplayName("Set Name")
+    void setName() {
+        Cat cat1 = new Cat("Harry", "Persian", 5);
+        cat1.setName("Bill");
+        assertEquals("Bill", cat1.getName());
+    }
+
+
 }
 
 

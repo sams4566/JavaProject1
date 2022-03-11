@@ -24,7 +24,7 @@ public class App {
     }
 
 
-    private static Animal getAnimal(String name) {
+    public static Animal getAnimal(String name) {
         if (name.equals("Dog")) {
             return new Dog("Peter", "poodle", 3);
         } else if (name.equals("Cat")) {

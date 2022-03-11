@@ -11,6 +11,6 @@ public class Dog extends Animal implements Speaker {
 
     @Override
     public String doSomething(String activity) {
-        return "I am doing " + activity;
+        return "I am " + activity;
     }
 }

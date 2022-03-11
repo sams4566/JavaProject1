@@ -50,5 +50,4 @@ public class TDDExample {
     void checkString() {
         assertEquals(String.class, "Felix".getClass());
     }
-
 }
