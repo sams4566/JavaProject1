@@ -1,5 +1,6 @@
 package com.sparta.ss.oop;
 
+import com.sparta.ss.week1.oop.Cat;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

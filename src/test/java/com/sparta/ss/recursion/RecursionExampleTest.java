@@ -1,5 +1,6 @@
 package com.sparta.ss.recursion;
 
+import com.sparta.ss.week1.recursion.RecursionExample;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

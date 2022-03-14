@@ -1,5 +1,6 @@
 package com.sparta.ss.tdd;
 
+import com.sparta.ss.week1.tdd.FizzBuzzGenerator;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
