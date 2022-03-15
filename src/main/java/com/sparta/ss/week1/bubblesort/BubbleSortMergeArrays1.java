@@ -33,7 +33,6 @@ public class BubbleSortMergeArrays1 {
         while (array3 < lengthlist) {
             if (array1 == length1) {
                 list[array3] = numbers4[array2];
-                System.out.println(array1);
                 array2++;
                 array3++;
             } else if (array2 == length2) {
@@ -63,8 +62,8 @@ public class BubbleSortMergeArrays1 {
     }
 
     public static void main(String[] args) {
-        int[] numbers1 = {700,89,98,100,119,192};
-        int[] numbers2 = {10,29,30,49,5,68};
+        int[] numbers1 = {7700,989,98,100,119,192};
+        int[] numbers2 = {10,289,30,489,5,968};
         int[] numbers3 = bubbleSort(numbers1);
         int[] numbers4 = bubbleSort(numbers2);
         int[] numbers = concat(numbers3, numbers4);

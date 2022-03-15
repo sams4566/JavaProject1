@@ -1,7 +1,4 @@
-package com.sparta.ss.week2.binary_tree;
-
-import java.util.Random;
-import java.util.Scanner;
+package com.sparta.ss.week2.design_patterns.binary_tree;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.sparta.ss.week2.binary_tree;
+package com.sparta.ss.week2.design_patterns.binary_tree;
 
 public class Node {
 
